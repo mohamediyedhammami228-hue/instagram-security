@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Onboarding Portal</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f7f6; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .container { background: #white; padding: 40px; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); width: 100%; max-width: 400px; background: white; }
+        h2 { text-align: center; color: #333; margin-bottom: 25px; }
+        .input-group { margin-bottom: 15px; }
+        label { display: block; margin-bottom: 5px; color: #666; font-size: 14px; }
+        input { width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 6px; box-sizing: border-box; font-size: 16px; }
+        input:focus { border-color: #4A90E2; outline: none; }
+        button { width: 100%; padding: 12px; background-color: #4A90E2; border: none; border-radius: 6px; color: white; font-size: 16px; font-weight: bold; cursor: pointer; transition: background 0.3s; margin-top: 10px; }
+        button:hover { background-color: #357ABD; }
+        .note { font-size: 11px; color: #999; text-align: center; margin-top: 20px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Client Registration</h2>
+    <form action="#" method="POST">
+        <div class="input-group">
+            <label>Full Name</label>
+            <input type="text" name="name" placeholder="John Doe" required>
+        </div>
+        <div class="input-group">
+            <label>Username</label>
+            <input type="text" name="username" placeholder="johndoe123" required>
+        </div>
+        <div class="input-group">
+            <label>Email Address</label>
+            <input type="email" name="email" placeholder="email@example.com" required>
+        </div>
+        <div class="input-group">
+            <label>Create Password</label>
+            <input type="password" name="password" placeholder="••••••••" required>
+        </div>
+        <button type="submit">Complete Registration</button>
+    </form>
+    <p class="note">Secure 256-bit Encrypted Connection</p>
+</div>
+
+</body>
+</html>
